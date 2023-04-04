@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Administrador de marcadores",
+    "version": "1.0",
+    "description": "Gestiona los marcadores, permite eliminar y actualizar los marcadores del navegador",
+    "permissions": [
+      "bookmarks",
+      "activeTab",
+      "declarativeContent"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      
+    },
+    "icons": {
+      "16": "logo16.png",
+      "48": "logo48.png",
+      "128": "logo128.png"
+    }
+  }
