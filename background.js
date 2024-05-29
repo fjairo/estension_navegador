@@ -27,7 +27,7 @@ function getBookmarks(bookmarkNodes) {
       bookmarks.push(...getBookmarks(node.children));
     }
   });
-  console.log(bookmarks);
+  //console.log(bookmarks);
   return bookmarks;
 }
 

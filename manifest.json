@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Administrador de marcadores",
-    "version": "1.0",
+    "version": "1.2",
     "description": "Gestiona los marcadores, permite eliminar y actualizar los marcadores del navegador",
     "permissions": [
       "bookmarks",
